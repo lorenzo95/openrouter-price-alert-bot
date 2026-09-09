@@ -257,7 +257,7 @@
     "provider": "~z-ai",
     "price_per_1k_input": 1.113e-06,
     "price_per_1k_output": 3.498e-06,
-    "context_length": 1310720,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -275,7 +275,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 1.4e-06,
     "price_per_1k_output": 4.4e-06,
-    "context_length": 1310720,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -363,8 +363,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 1.0494e-06,
-    "price_per_1k_output": 3.1482e-06,
+    "price_per_1k_input": 5.7948e-07,
+    "price_per_1k_output": 1.73844e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -831,8 +831,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 1.32e-07,
-    "price_per_1k_output": 5.28e-07,
+    "price_per_1k_input": 8.25e-08,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -921,8 +921,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.66e-07,
-    "price_per_1k_output": 3.036e-06,
+    "price_per_1k_input": 2.8e-07,
+    "price_per_1k_output": 8.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1335,8 +1335,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9.53172e-07,
-    "price_per_1k_output": 1.906344e-06,
+    "price_per_1k_input": 8.7e-07,
+    "price_per_1k_output": 1.74e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1344,8 +1344,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.708e-08,
-    "price_per_1k_output": 1.7416e-07,
+    "price_per_1k_input": 8.4e-08,
+    "price_per_1k_output": 1.68e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2598,15 +2598,6 @@
     "price_per_1k_input": 2e-07,
     "price_per_1k_output": 2.4e-06,
     "context_length": 81920,
-    "updated_at": ""
-  },
-  {
-    "id": "nousresearch/hermes-4-70b",
-    "name": "Nous: Hermes 4 70B",
-    "provider": "nousresearch",
-    "price_per_1k_input": 1.3e-07,
-    "price_per_1k_output": 4e-07,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
