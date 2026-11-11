@@ -1,5 +1,23 @@
 [
   {
+    "id": "baidu/ernie-5.5-flash-preview:free",
+    "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+    "provider": "baidu",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 1024000,
+    "updated_at": ""
+  },
+  {
+    "id": "baidu/ernie-light-dt-1.0-intl",
+    "name": "Baidu: ERNIE-Light-DT-1.0",
+    "provider": "baidu",
+    "price_per_1k_input": 1.13e-06,
+    "price_per_1k_output": 3.94e-06,
+    "context_length": 1024000,
+    "updated_at": ""
+  },
+  {
     "id": "google/gemini-4-carbon",
     "name": "Google: Gemini 4 Carbon",
     "provider": "google",
@@ -90,6 +108,15 @@
     "updated_at": ""
   },
   {
+    "id": "kt/midm-k-3.0-pro",
+    "name": "KT: Mi:dm K 3.0 Pro",
+    "provider": "kt",
+    "price_per_1k_input": 2e-07,
+    "price_per_1k_output": 8e-07,
+    "context_length": 261795,
+    "updated_at": ""
+  },
+  {
     "id": "google/gemini-omni-1.1-flash",
     "name": "Google: Gemini Omni 1.1 Flash",
     "provider": "google",
@@ -114,6 +141,15 @@
     "price_per_1k_input": 4.17e-07,
     "price_per_1k_output": 1.2505e-06,
     "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "motif-technologies/motif-3",
+    "name": "Motif Technologies: Motif 3",
+    "provider": "motif-technologies",
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -221,15 +257,6 @@
     "provider": "elorian",
     "price_per_1k_input": 6e-07,
     "price_per_1k_output": 3e-06,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "xingchen-agi/xing4.0-29b-a4b:free",
-    "name": "XingChen: Xing4.0 29B A4B (free)",
-    "provider": "xingchen-agi",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -822,8 +849,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 5.1e-08,
+    "price_per_1k_output": 5.67e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1011,7 +1038,7 @@
     "id": "z-ai/glm-5.3-flash:batch",
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "provider": "z-ai",
-    "price_per_1k_input": 3.3e-08,
+    "price_per_1k_input": 4.7e-08,
     "price_per_1k_output": 6.1e-08,
     "context_length": 1048576,
     "updated_at": ""
@@ -1149,15 +1176,6 @@
     "price_per_1k_input": 2e-06,
     "price_per_1k_output": 6e-06,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "bytedance-seed/seed-2.0-code",
-    "name": "ByteDance Seed: Seed-2.0-Code",
-    "provider": "bytedance-seed",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 3e-06,
-    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1948,7 +1966,7 @@
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
     "price_per_1k_input": 1.824e-07,
-    "price_per_1k_output": 9.3388e-06,
+    "price_per_1k_output": 1.10055e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2046,8 +2064,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9.5526e-07,
-    "price_per_1k_output": 1.91052e-06,
+    "price_per_1k_input": 8.87226e-07,
+    "price_per_1k_output": 1.774452e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2055,8 +2073,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9.1e-08,
-    "price_per_1k_output": 1.82e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2136,8 +2154,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 1.4e-06,
-    "price_per_1k_output": 4.4e-06,
+    "price_per_1k_input": 1.33e-06,
+    "price_per_1k_output": 4.18e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2309,7 +2327,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 7.5e-08,
     "price_per_1k_output": 4e-07,
-    "context_length": 1048576,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2514,8 +2532,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 1.08e-06,
     "context_length": 200000,
     "updated_at": ""
   },
@@ -2616,24 +2634,6 @@
     "price_per_1k_input": 1.75e-06,
     "price_per_1k_output": 1.4e-05,
     "context_length": 400000,
-    "updated_at": ""
-  },
-  {
-    "id": "bytedance-seed/seed-1.6-flash",
-    "name": "ByteDance Seed: Seed 1.6 Flash",
-    "provider": "bytedance-seed",
-    "price_per_1k_input": 7.5e-08,
-    "price_per_1k_output": 3e-07,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "bytedance-seed/seed-1.6",
-    "name": "ByteDance Seed: Seed 1.6",
-    "provider": "bytedance-seed",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 2e-06,
-    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -3658,7 +3658,7 @@
     "name": "Google: Gemma 3 27B",
     "provider": "google",
     "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_output": 3.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3866,15 +3866,6 @@
     "provider": "anthracite-org",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 5e-06,
-    "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "qwen/qwen-2.5-7b-instruct",
-    "name": "Qwen: Qwen2.5 7B Instruct",
-    "provider": "qwen",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 2e-07,
     "context_length": 32768,
     "updated_at": ""
   },
@@ -4089,8 +4080,8 @@
     "id": "mancer/weaver",
     "name": "Mancer: Weaver (alpha)",
     "provider": "mancer",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 7.5e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 8000,
     "updated_at": ""
   },
@@ -4098,8 +4089,8 @@
     "id": "undi95/remm-slerp-l2-13b",
     "name": "ReMM SLERP 13B",
     "provider": "undi95",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 6.5e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 6144,
     "updated_at": ""
   },
