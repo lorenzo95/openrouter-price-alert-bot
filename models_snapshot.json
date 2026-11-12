@@ -210,8 +210,17 @@
     "id": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",
     "provider": "moonshotai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 1e-05,
+    "price_per_1k_input": 2.375e-07,
+    "price_per_1k_output": 8.7856e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "moonshotai/kimi-k3.1-pro:batch",
+    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "provider": "moonshotai",
+    "price_per_1k_input": 7e-07,
+    "price_per_1k_output": 6e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -237,8 +246,8 @@
     "id": "deepseek/deepseek-v4.1-flash-1017",
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "provider": "deepseek",
-    "price_per_1k_input": 6e-09,
-    "price_per_1k_output": 5e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -246,8 +255,8 @@
     "id": "deepseek/deepseek-v4.1-flash-1017:batch",
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
     "provider": "deepseek",
-    "price_per_1k_input": 1.1e-08,
-    "price_per_1k_output": 2e-07,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1.5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -456,6 +465,15 @@
     "price_per_1k_input": 4.5e-08,
     "price_per_1k_output": 1.35e-07,
     "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "unbiased/pareto-26.10-preview",
+    "name": "Pareto 26.10 Preview",
+    "provider": "unbiased",
+    "price_per_1k_input": 8e-07,
+    "price_per_1k_output": 3.2e-06,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -759,8 +777,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 6e-09,
-    "price_per_1k_output": 5e-07,
+    "price_per_1k_input": 2.2e-08,
+    "price_per_1k_output": 4e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -849,8 +867,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 5.1e-08,
-    "price_per_1k_output": 5.67e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -994,7 +1012,7 @@
     "name": "IBM: Granite 4.2 8B",
     "provider": "ibm-granite",
     "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 2.5e-07,
+    "price_per_1k_output": 1.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1038,8 +1056,8 @@
     "id": "z-ai/glm-5.3-flash:batch",
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "provider": "z-ai",
-    "price_per_1k_input": 4.7e-08,
-    "price_per_1k_output": 6.1e-08,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1551,8 +1569,8 @@
     "id": "openai/gpt-5.6-sol",
     "name": "OpenAI: GPT-5.6 Sol",
     "provider": "openai",
-    "price_per_1k_input": 4e-06,
-    "price_per_1k_output": 2e-05,
+    "price_per_1k_input": 4.4e-06,
+    "price_per_1k_output": 2.2e-05,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -1686,8 +1704,8 @@
     "id": "z-ai/glm-5.2:batch",
     "name": "Z.ai: GLM 5.2 (batch)",
     "provider": "z-ai",
-    "price_per_1k_input": 5.27e-07,
-    "price_per_1k_output": 1.075e-06,
+    "price_per_1k_input": 3.22e-07,
+    "price_per_1k_output": 9.89e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2064,8 +2082,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.87226e-07,
-    "price_per_1k_output": 1.774452e-06,
+    "price_per_1k_input": 8.92272e-07,
+    "price_per_1k_output": 1.784544e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2154,8 +2172,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 1.33e-06,
-    "price_per_1k_output": 4.18e-06,
+    "price_per_1k_input": 1.4e-06,
+    "price_per_1k_output": 4.4e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2163,8 +2181,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 1e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 2.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2343,8 +2361,8 @@
     "id": "qwen/qwen3.5-9b",
     "name": "Qwen: Qwen3.5-9B",
     "provider": "qwen",
-    "price_per_1k_input": 1.7e-07,
-    "price_per_1k_output": 2.5e-07,
+    "price_per_1k_input": 1.04e-07,
+    "price_per_1k_output": 1.53e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2586,8 +2604,8 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 5.32e-07,
-    "price_per_1k_output": 3.325e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 2.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -3486,8 +3504,8 @@
     "id": "qwen/qwen3-14b",
     "name": "Qwen: Qwen3 14B",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 2.2e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 2.4e-07,
     "context_length": 40960,
     "updated_at": ""
   },
