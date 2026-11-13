@@ -1,5 +1,23 @@
 [
   {
+    "id": "google/gemini-4-hydrogen",
+    "name": "Google: Gemini 4 Hydrogen",
+    "provider": "google",
+    "price_per_1k_input": 1.5e-06,
+    "price_per_1k_output": 7.5e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemini-4-hydrogen:batch",
+    "name": "Google: Gemini 4 Hydrogen (batch)",
+    "provider": "google",
+    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_output": 3.75e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "baidu/ernie-5.5-flash-preview:free",
     "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
     "provider": "baidu",
@@ -42,6 +60,15 @@
     "price_per_1k_input": 1.2e-07,
     "price_per_1k_output": 4e-07,
     "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "thinkingmachines/inkling-2-small",
+    "name": "Thinking Machines: Inkling 2 Small",
+    "provider": "thinkingmachines",
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1e-06,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -129,8 +156,8 @@
     "id": "ricursiveai/ripple-65b-preview",
     "name": "Ricursive: Ripple 65B Preview",
     "provider": "ricursiveai",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 3e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -167,6 +194,15 @@
     "provider": "particle-ai",
     "price_per_1k_input": 5e-08,
     "price_per_1k_output": 5e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "particle-ai/particle-1:free",
+    "name": "Particle AI: Particle-1 (free)",
+    "provider": "particle-ai",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -210,8 +246,8 @@
     "id": "moonshotai/kimi-k3.1-pro",
     "name": "MoonshotAI: Kimi K3.1 Pro",
     "provider": "moonshotai",
-    "price_per_1k_input": 2.375e-07,
-    "price_per_1k_output": 8.7856e-06,
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 1e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -246,8 +282,8 @@
     "id": "deepseek/deepseek-v4.1-flash-1017",
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "provider": "deepseek",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 3.8e-08,
+    "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -777,8 +813,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 2.2e-08,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 3.8e-08,
+    "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1012,7 +1048,7 @@
     "name": "IBM: Granite 4.2 8B",
     "provider": "ibm-granite",
     "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.5e-07,
+    "price_per_1k_output": 2.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1119,8 +1155,8 @@
     "id": "z-ai/glm-5.3",
     "name": "Z.ai: GLM 5.3",
     "provider": "z-ai",
-    "price_per_1k_input": 6.99e-08,
-    "price_per_1k_output": 1.4e-06,
+    "price_per_1k_input": 8.4e-08,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1221,24 +1257,6 @@
     "price_per_1k_input": 1.6e-06,
     "price_per_1k_output": 4.8e-06,
     "context_length": 500000,
-    "updated_at": ""
-  },
-  {
-    "id": "liquid/lfm-2.5-2.6b",
-    "name": "LiquidAI: LFM2.5-2.6B",
-    "provider": "liquid",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 5e-07,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
-    "id": "liquid/lfm-2.5-2.6b:free",
-    "name": "LiquidAI: LFM2.5-2.6B (free)",
-    "provider": "liquid",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 65536,
     "updated_at": ""
   },
   {
@@ -1704,8 +1722,8 @@
     "id": "z-ai/glm-5.2:batch",
     "name": "Z.ai: GLM 5.2 (batch)",
     "provider": "z-ai",
-    "price_per_1k_input": 3.22e-07,
-    "price_per_1k_output": 9.89e-07,
+    "price_per_1k_input": 2.98e-07,
+    "price_per_1k_output": 9.16e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1984,7 +2002,7 @@
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
     "price_per_1k_input": 1.824e-07,
-    "price_per_1k_output": 1.10055e-05,
+    "price_per_1k_output": 1.06066e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1992,8 +2010,8 @@
     "id": "~google/gemini-flash-latest",
     "name": "Google: Gemini Flash Latest",
     "provider": "~google",
-    "price_per_1k_input": 7.5e-07,
-    "price_per_1k_output": 3.75e-06,
+    "price_per_1k_input": 1.5e-06,
+    "price_per_1k_output": 7.5e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2082,8 +2100,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.92272e-07,
-    "price_per_1k_output": 1.784544e-06,
+    "price_per_1k_input": 9e-07,
+    "price_per_1k_output": 1.5e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2109,8 +2127,8 @@
     "id": "xiaomi/mimo-v2.5-pro",
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "provider": "xiaomi",
-    "price_per_1k_input": 4.8e-07,
-    "price_per_1k_output": 1.8e-06,
+    "price_per_1k_input": 4.35e-07,
+    "price_per_1k_output": 8.7e-07,
     "context_length": 1024000,
     "updated_at": ""
   },
@@ -2182,7 +2200,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
     "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 2.8e-07,
+    "price_per_1k_output": 3e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2361,8 +2379,8 @@
     "id": "qwen/qwen3.5-9b",
     "name": "Qwen: Qwen3.5-9B",
     "provider": "qwen",
-    "price_per_1k_input": 1.04e-07,
-    "price_per_1k_output": 1.53e-07,
+    "price_per_1k_input": 8.2e-08,
+    "price_per_1k_output": 1.2e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2551,8 +2569,8 @@
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
     "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 1.08e-06,
-    "context_length": 200000,
+    "price_per_1k_output": 9.5e-07,
+    "context_length": 198000,
     "updated_at": ""
   },
   {
